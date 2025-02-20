@@ -16,9 +16,9 @@ public class practice {
         System.out.println("Enter Third number: ");
         z = in.nextInt();
 
-        System.out.println(x + "*" +  y + "+" + z + "=" + (x*4+6));
+        System.out.println(x + "*" +  y + "+" + z + "=" + (x*y+z));
         System.out.println("("+x + "-" +  y + ")%" + z + "=" +((x-y)%z));
-        System.out.println("("+x + "+" +  y + "+" + z +")" + "/3"+"=" + (x+y+z)/3);
+        System.out.println("("+x + "+" +  y + "+" + z +")" + "/3"+"=" + ((x+y+z)/3));
         System.out.println(x + "*" +  z + "-(" + y + "*" + y + "=" + (x*z-(4*4)));
 
     }
